@@ -19,6 +19,7 @@ public class FirstTesting {
     String appiumUrl="http://127.0.0.1:4723/wd/hub";
     WebDriver driver;
     WebDriverWait wait;
+    
     @BeforeTest
     public void setup() throws MalformedURLException {
         DesiredCapabilities capabilities=new DesiredCapabilities();
